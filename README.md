@@ -27,7 +27,7 @@ AVR Programmer
 In order to program an AVR microcontroller (outside of an ecosystem 
 such as Arduino) you'll need a programmer. AVR MCUs typically use an 
 in-circuit serial programmer (ISP). This type of programmer usually 
-has USB interface for the connection to your workstation, and connects 
+has a USB interface for the connection to your workstation, and connects 
 to the AVR's SPI interface pins to transfer programming data into the 
 MCU's on board flash memory and/or fuses.
 
@@ -97,6 +97,9 @@ breadboard. You'll need a +5 VDC power supply to connect to the rails
 of the breadboard. 
 
 ![circuit diagram](blink.png)
+
+The 100 nF decoupling capacitor shown on the schematic can simply 
+straddle pins 7 and 8 on the MCU. 
 
 
 Connecting the Programmer
