@@ -2,20 +2,20 @@
 
 # MCU type as defined for avr-gcc and avrdude
 # You can list all supported MCUs using `avrdude -p ?`
-MCU=atmega168
+MCU=atmega328p
 
 # Lower fuse bits used by the `lfuse` target. 
 # Internal clock (1 MHz) (8 MHz divided by 8)
-# LFUSE_BITS=0x62
+LFUSE_BITS=0x62
 # Internal clock (8 MHz) 
 # LFUSE_BITS=0xe2
 # External crystal
-LFUSE_BITS=0xef
+# LFUSE_BITS=0xef
 
 # Clock frequency -- set to match your clock source
-# CLOCK=1000000
+CLOCK=1000000
 # CLOCK=8000000
-CLOCK=18432000
+# CLOCK=18432000
 
 # AVR programmer type (use `avrdude -c ?` to get all supported options)
 PROGRAMMER=avrispmkii
