@@ -8,8 +8,8 @@ a breadboard, an AVR microcontroller, a suitable programmer, plus some
 other passive components, the aim is to get you from zero to being able 
 to compile an AVR program and transfer it to the MCU to run.
 
-In this tutorial, we'll use the AVR C/C++ compiler (`avr-gcc`) along, 
-a utility known as `avrdude` used to drive the programmer which in turn 
+In this tutorial, we'll use the AVR C/C++ compiler (`avr-gcc`) along
+with a utility known as `avrdude` used to drive the programmer that 
 programs the AVR hardware, plus a couple of other utilities. We'll use 
 a plain text editor and command-line tools so that you can understand 
 the basic flow without getting tangled up in an IDE that hides a lot of
