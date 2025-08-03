@@ -237,11 +237,11 @@ exploring the various peripherals available in the MCU. The official
 [megaAVR Data Sheet](https://ww1.microchip.com/downloads/en/DeviceDoc/ATmega48A-PA-88A-PA-168A-PA-328-P-DS-DS40002061A.pdf) is a great place to learn 
 about all of the capabilities.
 
-The [AVR-LibC] project on Github has the documentation for the AVR
-C library. This is the place to discover all of the functions 
-available in the library, as well as details such as how to declare
-interrupt service routines, how to store data and reference data in
-flash with the program, etc.
+The [AVR-LibC](https://avrdudes.github.io/avr-libc/) project on Github 
+has the documentation for the AVR C library. This is the place to discover 
+all the functions available in the library, as well as details such as 
+how to declare interrupt service routines, how to store and reference 
+data in flash with the program, etc.
 
 A good second project is to revise the initial blink project so that
 the state of the LED pin is toggled in an interrupt service routine 
