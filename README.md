@@ -80,8 +80,8 @@ Here's the complete list of components.
 
 AVR microcontrollers have an onboard 8 MHz internal oscillator. This is 
 more than adequate for some projects. However, for projects that move a 
-lot of data via the USART, an 18.432 MHz may be a better choice. This 
-frequency allows the USART to operate in asynchronous mode at 115,200 
+lot of data via the USART, an 18.432 MHz crystal may be a better choice. 
+This frequency allows the USART to operate in asynchronous mode at 115,200 
 bps or 230,400 bps with no difference between the specified bit rate and 
 the rate produced by the baud rate generator (as specified via register
 UBRR0). The optional crystal and 22 pF capacitors are used to create 
